@@ -1,14 +1,11 @@
-📌 Project Title
-
 AI-Powered Business Intelligence Chatbot for Structured Enterprise Data
-
-📄 Overview
+Overview
 
 This project demonstrates an AI-powered Business Intelligence (BI) system that allows users to ask questions in natural language and receive accurate, data-backed insights from structured enterprise data stored on-premise.
 
-The system is designed to enhance data accessibility without compromising correctness, traceability, or reproducibility. AI is used as an interface and explanation layer, while all computations are performed on structured databases.
+The system is designed to enhance data accessibility without compromising correctness, traceability, or reproducibility. AI is used strictly as an interface and explanation layer, while all computations are performed on structured databases.
 
-🎯 Problem Statement
+Problem Statement
 
 Traditional BI systems require users to:
 
@@ -26,7 +23,7 @@ What profit did Paytm make in 2021?
 
 The system retrieves the correct data from structured sources and presents results in clear, natural language.
 
-🧠 System Architecture
+System Architecture
 
 The system follows a question → data → explanation flow:
 
@@ -42,12 +39,12 @@ Results are passed to an LLM for explanation
 
 Final answer and insights are returned
 
-🏗️ Architecture Diagram (Logical)
+Architecture Diagram (Logical)
 User
  ↓
 Chat Interface
  ↓
-Entity Recognition + Intent Classification
+Entity Recognition and Intent Classification
  ↓
 Query Builder
  ↓
@@ -55,11 +52,11 @@ Structured Database (SQL / MongoDB)
  ↓
 Validated Query Results
  ↓
-LLM (Explanation & Insight Layer)
+LLM Explanation and Insight Layer
  ↓
 Final Answer to User
 
-🧩 Key Components
+Key Components
 1. Entity Recognition
 
 Identifies key entities such as:
@@ -94,24 +91,24 @@ Fetches exact results from indexed tables or collections.
 
 Transforms structured outputs into readable answers and insights.
 
-🛠️ Tools & Technologies
+Tools and Technologies
 
 Database: SQL / MongoDB (indexed, aggregated data)
 
 Backend: Python
 
-NLP: Entity extraction + intent classification
+NLP: Entity extraction and intent classification
 
 LLM: Used only for explanation (RAG-assisted)
 
 APIs: REST-based service layer
 
-🧪 Example Queries
+Example Queries
 Question	System Action
 Revenue of Paytm in 2021	Lookup
 Total revenue of Fintech in 2020	Aggregation
 Companies in Healthcare domain	List
-🔐 Design Principles
+Design Principles
 
 Structured data is the source of truth
 
@@ -119,9 +116,9 @@ AI never performs calculations
 
 Every answer is traceable to data
 
-Explanations are separated from inference
+Explanations are clearly separated from inference
 
-✅ Outcome
+Outcome
 
 Improved accessibility to business data
 
@@ -129,6 +126,6 @@ Reduced dependency on analysts
 
 Maintained accuracy and trust
 
-📌 Conclusion
+Conclusion
 
-This project demonstrates how AI can be responsibly integrated into BI systems as an interface layer, while preserving scientific and business correctness.
+This project demonstrates how AI can be responsibly integrated into BI systems as an interface layer, while preserving scientific rigor, business correctness, and data trust.
