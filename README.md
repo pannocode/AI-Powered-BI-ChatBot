@@ -49,20 +49,16 @@ Company names
 Domains
 Metrics (revenue, profit)
 Time periods
-
 2. Intent Classification
 Determines whether the user wants:
 A lookup
 An aggregation
 A comparison
-
-3. Query Builder
+4. Query Builder
 Converts validated intent and entities into safe, structured database queries.
-
-4. Data Retrieval Layer
+5. Data Retrieval Layer
 Fetches exact results from indexed tables or collections.
-
-5. LLM Explanation Layer
+6. LLM Explanation Layer
 Transforms structured outputs into readable answers and insights.
 
 
