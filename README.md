@@ -20,25 +20,14 @@ The system retrieves the correct data from structured sources and presents resul
 
 
 **System Architecture**
-
-- The system follows a question → data → explanation flow:
-- User asks a question in natural language
-- System identifies intent and entities
-- A structured query is generated
-- Data is fetched from the database
-- Results are passed to an LLM for explanation
-- Final answer and insights are returned
-
-
-**Architecture Diagram (Logical)**
 1. User
-2. Chat Interface
-3. Entity Recognition and Intent Classification
-4. Query Builder
-5. Structured Database (SQL / MongoDB)
+2. Chat Interface : User asks a question in natural language
+3. Entity Recognition and Intent Classification : System identifies intent and entities
+4. Query Builder : A structured query is generated
+5. Structured Database (SQL / MongoDB) : Data is fetched from the database
 6. Validated Query Results
-7. LLM Explanation and Insight Layer
-8. Final Answer to User
+7. LLM Explanation and Insight Layer : Results are fed to an LLM for explanation
+8. Final Answer : Answer and insights are returned to user with the data citations
 
 
 **Key Components**
