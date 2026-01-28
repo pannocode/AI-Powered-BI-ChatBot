@@ -62,6 +62,7 @@ Fetches exact results from indexed tables or collections.
 Transforms structured outputs into readable answers and insights.
 
 
+
 **Tools and Technologies**
 Database: SQL / MongoDB (indexed, aggregated data)
 Backend: Python
@@ -70,11 +71,13 @@ LLM: Used only for explanation (RAG-assisted)
 APIs: REST-based service layer
 
 
+
 **Example Queries**
 Question	System Action
 Revenue of Paytm in 2021	Lookup
 Total revenue of Fintech in 2020	Aggregation
 Companies in Healthcare domain	List
+
 
 
 **Design Principles**
@@ -87,5 +90,6 @@ Improved accessibility to business data
 Reduced dependency on analysts
 Maintained accuracy and trust
 Conclusion
+
 
 This project demonstrates how AI can be responsibly integrated into BI systems as an interface layer, while preserving scientific rigor, business correctness, and data trust.
