@@ -16,7 +16,7 @@ The system is designed to enhance data accessibility without compromising correc
 - This project enables users to ask questions such as:
 - What is the total revenue of the Fintech domain in 2020?
 - What profit did Paytm make in 2021?
-- The system retrieves the correct data from structured sources and presents results in clear, natural language.
+- Whereas, this system retrieves the correct data from structured sources and presents results in clear, natural language.
 
 
 **System Architecture**
